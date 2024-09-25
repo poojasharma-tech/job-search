@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(200, 227, 227);
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;           
+    align-items: center;
+    margin-bottom: 40px;
+    color: rgb(254, 255, 255);
+    background-color: #34495e;
+    height: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -37px;               
+    margin-left: -20px;              
+    margin-right: -20px;
+    padding: 0 20px;
+}
+
+.class {
+    background-color: #9db8d7;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 50px;
+    padding-top: 19px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+}
+
+input[type="search"] {
+    padding: 10px;
+    border: 2px solid #4A90E2; 
+    border-radius: 5px; 
+    outline: none; 
+}
+
+
+
+button {
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+button#searchButton {
+    background-color: #727ff3; 
+    color: white; 
+}
+
+
+.job-listings {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.job-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.job-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.company-logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.company-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 18px;
+}
+
+.company-info h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.tags {
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 13px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.tags.new {
+    background-color: #727ff3;
+}
+
+.tags.featured {
+    background-color: #9c78ef;
+}
+
+.job-info h2 {
+    font-size: 26px;
+    margin: 5px 0;
+    margin-left: 10px;
+}
+
+.job-info p {
+    color: #886ca8;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.tags span {
+    background-color: #b8dce4;
+    padding: 8px 12px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+    color:  #34495e;
+}
+
+.skills {
+    margin-top: 10px;
+}
+
+.skill {
+    background-color: #c9daf7;
+    color: rgb(133, 125, 125);
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 4px;
+    margin-right: 5px;
+}
